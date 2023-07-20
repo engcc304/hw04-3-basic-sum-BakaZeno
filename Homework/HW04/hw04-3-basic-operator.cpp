@@ -13,8 +13,8 @@
         Answer = 6
 */
 #include <stdio.h>  
-int main(){
-    int a,b,c;
+int main() {
+    int a,b,c,ans;
 
     printf("Input a : ");
     scanf("%d",&a);
@@ -22,6 +22,6 @@ int main(){
     scanf("%d",&b);
     printf("Input c : ");
     scanf("%d",&c);
-
+    ans = a+b+c;
     printf("%d %d %d",a,b,c);
 }
