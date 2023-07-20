@@ -23,5 +23,5 @@ int main() {
     printf("Input c : ");
     scanf("%d",&c);
     ans = a+b+c;
-    printf("%d %d %d",a,b,c);
+    printf("%d",ans);
 }
