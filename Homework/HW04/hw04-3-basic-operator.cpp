@@ -12,4 +12,16 @@
     Output:
         Answer = 6
 */
-#include <stdio.h>
+#include <stdio.h>  
+int main(){
+    int a,b,c;
+
+    printf("Input a : ");
+    scanf("%d",&a);
+    printf("Input b : ");
+    scanf("%d",&b);
+    printf("Input c : ");
+    scanf("%d",&c);
+
+    printf("%d %d %d",a,b,c);
+}
